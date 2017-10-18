@@ -7,8 +7,12 @@
 
     # Redirect Trailing Slashes If Not A Folder...
     RewriteCond %{REQUEST_FILENAME} !-d
+<<<<<<< HEAD
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
+=======
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+>>>>>>> 13975cd39a59be96acb08a2428bf646e3e087332
 
     # Handle Front Controller...
     RewriteCond %{REQUEST_FILENAME} !-d

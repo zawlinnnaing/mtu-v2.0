@@ -29,14 +29,21 @@ class Kernel extends ConsoleKernel
     }
 
     /**
+<<<<<<< HEAD
      * Register the commands for the application.
+=======
+     * Register the Closure based commands for the application.
+>>>>>>> 13975cd39a59be96acb08a2428bf646e3e087332
      *
      * @return void
      */
     protected function commands()
     {
+<<<<<<< HEAD
         $this->load(__DIR__.'/Commands');
 
+=======
+>>>>>>> 13975cd39a59be96acb08a2428bf646e3e087332
         require base_path('routes/console.php');
     }
 }

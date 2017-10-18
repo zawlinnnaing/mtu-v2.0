@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+<<<<<<< HEAD
 Route::get('/', 'HomeController@index');
 
 Route::get('/departments/archi', 'HomeController@archi');
@@ -24,3 +25,9 @@ Route::get('/departments/maths', 'HomeController@maths');
 Route::get('/departments/mech', 'HomeController@mech');
 Route::get('/departments/mecha', 'HomeController@mecha');
 Route::get('/departments/myan', 'HomeController@myan');
+=======
+
+Route::get('/', function () {
+    return view('index');
+});
+>>>>>>> 13975cd39a59be96acb08a2428bf646e3e087332
