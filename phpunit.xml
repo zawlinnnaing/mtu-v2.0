@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit backupGlobals="false"
          backupStaticAttributes="false"
-<<<<<<< HEAD
          bootstrap="vendor/autoload.php"
-=======
-         bootstrap="bootstrap/autoload.php"
->>>>>>> 13975cd39a59be96acb08a2428bf646e3e087332
          colors="true"
          convertErrorsToExceptions="true"
          convertNoticesToExceptions="true"
